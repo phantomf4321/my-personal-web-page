@@ -22,4 +22,4 @@ class Defaults:
 
 
 D1 = Defaults
-print(D1.get_current_time())
+print(D1.claculate_age())
