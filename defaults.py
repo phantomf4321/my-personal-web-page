@@ -3,7 +3,7 @@ from dateutil import relativedelta
 
 class Defaults:
 
-    def get_current_time():
+    def get_current_time(self):
         date = datetime.now()
         date = date.strftime("%Y/%m/%d")
 
@@ -21,5 +21,5 @@ class Defaults:
         print(delta.years, 'Years,', delta.months, 'months,', delta.days, 'days')
 
 
-D1 = Defaults
+D1 = Defaults()
 print(D1.claculate_age())
