@@ -1,10 +1,11 @@
 from flask import *
-
+from defaults import Defaults
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
+
     return render_template('index.html')
 
 @app.route('/about')
