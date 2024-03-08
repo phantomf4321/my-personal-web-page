@@ -1,5 +1,9 @@
 from datetime import datetime
-date = datetime.now()
 
-date = date.strftime("%Y/%m/%d")
-print(date)
+class Defaults:
+
+    def get_current_time(self):
+        date = datetime.now()
+        date = date.strftime("%Y/%m/%d")
+
+        return date
