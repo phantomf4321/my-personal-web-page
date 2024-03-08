@@ -17,8 +17,10 @@ class Defaults:
 
         # Get the relativedelta between two dates
         delta = relativedelta.relativedelta(end_date, start_date)
-        print('Years, Months, Days between two dates is')
-        print(delta.years, 'Years,', delta.months, 'months,', delta.days, 'days')
+
+        age = "{}years & {}months &{}days".format(delta.years, delta.months, delta.days)
+
+        return age
 
 
 D1 = Defaults()
