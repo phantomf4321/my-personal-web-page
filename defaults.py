@@ -1,5 +1,4 @@
 from datetime import datetime
-date = datetime.now()
+date = datetime.now("%d/%m/%Y")
 
-date = datetime.strptime(date, "%d/%m/%Y")
 print(date)
