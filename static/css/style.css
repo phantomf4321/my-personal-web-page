@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("https://64.media.tumblr.com/e5b4ada34c2e1adbf0a85463db839db8/tumblr_mrbhfpLI4g1s2d5eso1_500.gif") top right no-repeat;
+  background: #040404 url("https://64.media.tumblr.com/b6a219f285b706b3e0dbb7acc2307112/tumblr_ndkknrHyCi1qglpm1o1_500.gif") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
