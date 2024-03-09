@@ -11,7 +11,4 @@ def index():
 
     return render_template('index.html', data=about_data[0])
 
-@app.route('/about')
-def about():
-    return redirect(url_for('index') + '#about')
 app.run(debug=True)
